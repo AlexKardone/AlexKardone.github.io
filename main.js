@@ -173,8 +173,8 @@ function preloadAudio(name, data, callback) {
 function audioCountdown() {
     audioCounter--;
     if (audioCounter <= 0) {
-        createJsInit();
-        // loadPhaser();          
+        // createJsInit();
+        loadPhaser();          
     }
 }
 
